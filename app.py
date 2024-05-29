@@ -65,7 +65,7 @@ if wiki_ques:
     api_wrapper = WikipediaAPIWrapper(top_k_results=1,doc_content_chars_max=200)
     wiki = WikipediaQueryRun(api_wrapper=api_wrapper)
 
-    # Can add many agents
+    # Can add many such tools
     tools = [wiki]
 
 
